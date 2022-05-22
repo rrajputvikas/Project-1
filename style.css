@@ -12,9 +12,9 @@ body {
 .card {
   margin:0 auto;
   padding: 50px 20px;
-  transform: translateY(30%);
+  transform: translateY(25%);
   position: relative;
-  width: 280px;
+  width: 270px;
   height: 350px;
   background: url("./Images/Dark-Blue-Tech.png") center no-repeat;
   background-size: cover;
@@ -72,7 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5em;
+  transform: translateY(-10%);
   width: 100%;
 }
 .canvas {
@@ -85,9 +85,9 @@ body {
 }
 .card-description {
   font-size: 1.3em;
-  font-family: 'Grape Nuts', cursive;
-  height: 280px;
-  width: 290px;
+  font-family: 'Grape Nuts', Courier, monospace;
+  height: 300px;
+  width: 280px;
   padding: 10px 20px;
   border-radius: 25px;
   box-shadow: inset 0px 15px 10px -20px rgba(0,0,0);
